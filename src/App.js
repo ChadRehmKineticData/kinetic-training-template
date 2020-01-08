@@ -1,8 +1,5 @@
 import React from "react";
 import "./styles.css";
+import { Home } from "./components/home";
 
-export const App = () => (
-  <div className="App">
-    <h1>Kinetic Template</h1>
-  </div>
-);
+export const App = () => <Home />;

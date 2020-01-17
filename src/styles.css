@@ -1,4 +1,36 @@
+/*
+    App expected html structure
+    <div className="App">
+      ... content
+    </div>
+  */
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+/*
+    card expected html structure
+    <div className="card">
+      ... content
+    </div>
+  */
+.card {
+  margin: 5px;
+  border: 1px black solid;
+  background-color: tan;
+  border-radius: 5px;
+}
+/*
+    cards expected html structure
+    <div className="cards">
+      ... list of cards
+    </div>
+  */
+.cards {
+  margin-top: 20px;
+}
+
+button {
+  height: 25px;
+  width: 100px;
 }
